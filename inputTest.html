@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input 추가하기</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./inputTest.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script src="./inputTest.js"></script>
+</head>
+<body>
+    <div id="user_interaction_frm">
+        <div class="tit_wrap">
+            <label for="subject">제목</label>
+            <p><input type="text" name="subject" id="subject"></p>
+        </div>
+        <div class="txt_wrap">
+            <label for="contents">내용</label>
+            <p><input type="text" name="contents" id="contents"></p>
+        </div>
+        <div class="top_inp">
+            <span class="add">추가하기</span>
+        </div>
+        <ul class="user_list">
+            <li>
+                <label for="etc_1" class="num">기타_1</label>
+                <input type="text" placeholder="입력하세요" id="etc_1">
+                <i class="fa-solid fa-chevron-down"></i>
+            </li>
+        </ul>
+        <div class="submit">
+            <input type="submit" value="제출하기">
+        </div>
+    </div>
+</body>
+</html>

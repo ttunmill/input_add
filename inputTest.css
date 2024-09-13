@@ -1,0 +1,84 @@
+/* ============================= user_interaction_frm*/
+#user_interaction_frm {
+    margin: 50px auto 0;
+    width: 1200px;
+    padding: 50px;
+    text-align: center;
+    background-color: #F2F4F6;
+}
+#user_interaction_frm .tit_wrap, 
+#user_interaction_frm .txt_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#user_interaction_frm .top_inp {
+    display: flex;
+    justify-content: center;
+}
+#user_interaction_frm .top_inp .add {
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#user_interaction_frm .user_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;;
+    gap: 20px;
+    margin: 50px auto;
+    width: max-content;
+}
+#user_interaction_frm .user_list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#user_interaction_frm .user_list li i {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+#user_interaction_frm .user_list li .num {
+    width: 60px;
+    font-size: 14px;
+}
+
+#user_interaction_frm .user_list li .del {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+/* #user_interaction_frm .user_list li:first-child .del,
+#user_interaction_frm .user_list li:first-child .fa-up {
+    display: none;
+    visibility: hidden;
+} 
+#user_interaction_frm .user_list li:last-child:not(:first-child) .fa-down {
+    visibility: hidden;
+    display: none;
+}  */
+
+#user_interaction_frm input {
+    padding: 16px;
+    width: 360px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
